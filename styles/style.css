@@ -68,7 +68,6 @@ p {
   padding: 5px 0;
   line-height: 2rem;
   color: #444;
-  letter-spacing: 0.5px;
 }
 
 #title {
@@ -76,6 +75,11 @@ p {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   height: 225px;
+}
+
+.radial-gradient h1,
+.radial-gradient h2 {
+  text-align: center;
 }
 
 .radial-gradient {
@@ -86,14 +90,6 @@ p {
     ),
     repeating-conic-gradient(at 25% 50%, #ccc 0 6deg, white 0 12deg);
   height: 100%;
-}
-
-.radial-gradient h1 {
-  padding: 50px 0 0 100px;
-}
-
-.radial-gradient h2 {
-  padding-left: 150px;
 }
 
 #aside-content {
@@ -147,6 +143,14 @@ p {
 }
 
 @media (min-width: 768px) {
+  .radial-gradient h1 {
+    padding: 50px 0 0 100px;
+  }
+
+  .radial-gradient h2 {
+    padding-left: 150px;
+  }
+
   #aside-content {
     width: 25%;
     float: left;
