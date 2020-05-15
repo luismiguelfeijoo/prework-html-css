@@ -83,12 +83,10 @@ p {
 }
 
 .radial-gradient {
-  background: radial-gradient(
-      circle at 25% 50%,
-      #fff 4%,
-      rgba(255, 255, 255, 0.5) 100%
-    ),
+  background: url("../images/pale-cherry-blossom.png") right top no-repeat,
+    radial-gradient(circle at 25% 50%, #fff 4%, rgba(255, 255, 255, 0.5) 100%),
     repeating-conic-gradient(at 25% 50%, #ccc 0 6deg, white 0 12deg);
+  background-size: 40%, cover, cover;
   height: 100%;
 }
 
@@ -145,10 +143,12 @@ p {
 @media (min-width: 768px) {
   .radial-gradient h1 {
     padding: 50px 0 0 100px;
+    text-align: start;
   }
 
   .radial-gradient h2 {
     padding-left: 150px;
+    text-align: start;
   }
 
   #aside-content {
