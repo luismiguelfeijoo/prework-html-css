@@ -1,15 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500&display=swap");
+
 body {
   background-color: lightgray;
   margin: 0 12.5px;
+  font-family: "Mukta";
 }
 
 h1 {
   font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #666666;
 }
 
 h2,
 h3 {
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #666666;
+}
+
+h2 {
+  font-weight: 300;
 }
 
 a {
@@ -19,6 +30,11 @@ a {
 li:before {
   content: "▸ ";
   color: fuchsia;
+}
+
+li {
+  margin: 10px 0;
+  border-bottom: 1px dotted #666;
 }
 
 li,
@@ -81,7 +97,7 @@ p {
 
 .box-wrapper {
   width: 85%;
-  padding: 20px 10px;
+  padding: 10px;
 }
 
 .aside-box-wrapper {
