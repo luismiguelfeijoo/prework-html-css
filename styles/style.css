@@ -83,10 +83,24 @@ p {
 }
 
 .radial-gradient {
-  background: url("../images/pale-cherry-blossom.png") right top no-repeat,
-    radial-gradient(circle at 25% 50%, #fff 4%, rgba(255, 255, 255, 0.5) 100%),
+  background: radial-gradient(
+      circle at 25% 50%,
+      #fff 4%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
     repeating-conic-gradient(at 25% 50%, #ccc 0 6deg, white 0 12deg);
-  background-size: 40%, cover, cover;
+  background-size: cover, cover;
+  height: 100%;
+}
+
+#flowers {
+  position: absolute;
+  top: 10px;
+  right: 35px;
+  background: url("../images/pale-cherry-blossom.png") right top no-repeat,
+    transparent;
+  background-size: 40%, cover;
+  width: 90vw;
   height: 100%;
 }
 
