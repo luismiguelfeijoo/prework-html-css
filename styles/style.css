@@ -12,6 +12,15 @@ h3 {
   font-size: 25px;
 }
 
+a {
+  color: fuchsia;
+}
+
+li:before {
+  content: "▸ ";
+  color: fuchsia;
+}
+
 li,
 p {
   font-size: 20px;
