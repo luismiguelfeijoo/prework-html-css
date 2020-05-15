@@ -23,18 +23,29 @@ h2 {
   font-weight: 300;
 }
 
-a {
+.important-links {
   color: fuchsia;
   font-weight: 500;
 }
 
+.nav-links {
+  color: fuchsia;
+  font-weight: 300;
+}
+
 .text-links {
+  color: fuchsia;
   text-decoration: underline;
   font-weight: 400;
 }
 
 .author {
   color: #666;
+  font-weight: 500;
+}
+
+.dotted-underline {
+  text-decoration: underline dotted;
 }
 
 li:before {
@@ -53,10 +64,11 @@ li {
 }
 
 p {
-  font-size: 25px;
+  font-size: 23px;
   padding: 5px 0;
   line-height: 2rem;
   color: #444;
+  letter-spacing: 0.5px;
 }
 
 #title {
