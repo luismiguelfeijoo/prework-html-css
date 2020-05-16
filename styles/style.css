@@ -94,11 +94,7 @@ p {
 }
 
 .svg-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  visibility: hidden;
 }
 
 #flowers {
@@ -107,9 +103,9 @@ p {
   right: 35px;
   background: url("../images/pale-cherry-blossom.png") right top no-repeat,
     transparent;
-  background-size: 40%, cover;
-  width: 90vw;
-  height: 100%;
+  background-size: 38%, cover;
+  width: 100vw;
+  height: 235px;
 }
 
 #aside-content {
@@ -185,5 +181,16 @@ p {
 
   .right {
     margin-left: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .svg-container {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 235px;
   }
 }
