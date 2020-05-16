@@ -26,22 +26,24 @@ h2 {
 .important-links {
   color: fuchsia;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .nav-links {
   color: fuchsia;
   font-weight: 300;
+  text-decoration: none;
 }
 
 .text-links {
   color: fuchsia;
-  text-decoration: underline;
   font-weight: 400;
 }
 
 .author {
   color: #666;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .dotted-underline {
