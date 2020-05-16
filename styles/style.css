@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500&display=swap");
+
+body {
+  background-color: lightgray;
+  margin: 0 12.5px;
+  font-family: "Mukta";
+}
+
+h1 {
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #666;
+}
+
+h2,
+h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #666;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+.important-links {
+  color: fuchsia;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.nav-links {
+  color: fuchsia;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.text-links {
+  color: fuchsia;
+  font-weight: 400;
+}
+
+.author {
+  color: #666;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.dotted-underline {
+  text-decoration: underline dotted;
+}
+
+li:before {
+  content: "▸ ";
+  color: fuchsia;
+}
+
+li {
+  margin: 10px 0;
+  border-bottom: 1px dotted #666;
+  color: #888;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 10px 0;
+  line-height: 1.6rem;
+}
+
+p {
+  font-size: 23px;
+  padding: 5px 0;
+  line-height: 2rem;
+  color: #444;
+}
+
+#title {
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  height: 225px;
+}
+
+.radial-gradient h1,
+.radial-gradient h2 {
+  text-align: center;
+}
+
+.radial-gradient {
+  background: radial-gradient(
+      circle at 25% 50%,
+      #fff 4%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    repeating-conic-gradient(at 25% 50%, #ccc 0 6deg, white 0 12deg);
+  background-size: cover, cover;
+  height: 100%;
+}
+
+.svg-container {
+  visibility: hidden;
+}
+
+#flowers {
+  position: absolute;
+  top: 10px;
+  right: 35px;
+  background: url("../images/pale-cherry-blossom.png") right top no-repeat,
+    transparent;
+  background-size: 38%, cover;
+  width: 100vw;
+  height: 235px;
+}
+
+#aside-content {
+  width: 100%;
+}
+
+#main-content {
+  width: 100%;
+}
+
+.box {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 12.5px;
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.pink {
+  color: fuchsia;
+}
+
+.content {
+  width: 100%;
+}
+
+.box-wrapper {
+  width: 85%;
+  padding: 10px;
+}
+
+.aside-box-wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+}
+
+.linear-background {
+  background: repeating-linear-gradient(
+      135deg,
+      transparent,
+      transparent 10px,
+      #fff 10px,
+      #fff 20px
+    ),
+    linear-gradient(180deg, rgb(219, 218, 218, 0.8) 0%, #fff 100%);
+  background-size: 100% 50px;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .radial-gradient h1 {
+    padding: 50px 0 0 100px;
+    text-align: start;
+  }
+
+  .radial-gradient h2 {
+    padding-left: 150px;
+    text-align: start;
+  }
+
+  #aside-content {
+    width: 25%;
+    float: left;
+  }
+
+  #main-content {
+    width: 75%;
+    float: right;
+  }
+
+  .right {
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .svg-container {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 235px;
+  }
+}
