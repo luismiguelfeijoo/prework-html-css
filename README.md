@@ -8,4 +8,4 @@ Regarding the flowers I found (or at least I guess😅) the same ones: cherry bl
 
 I also included the links to the original pages but the other links were broken so I ommited them. The result on my screen is this:
 
-<img width="100%" alt="main-page" src="https://i.imgur.com/99cUhVX.png">
+<a href="https://luismiguelfeijoo.github.io/prework-html-css/index.html"><img width="100%" alt="main-page" src="https://i.imgur.com/99cUhVX.png"><a/>
